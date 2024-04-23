@@ -1,0 +1,141 @@
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background-image: 
+     url('https://images.pexels.com/photos/1502645/pexels-photo-1502645.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+body{
+    background-color: rgb(255, 254, 254);   
+}
+div.gall{
+  font-size: 20px;
+  text-align:center;
+  float: center;
+  width:200px;
+  margin:50px;
+  background-image: 
+linear-gradient(to right bottom, 
+   rgb(194, 183, 162),
+   rgba(108, 95, 80, 0.8)),
+   url('https://images.pexels.com/photos/8740311/pexels-photo-8740311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');}
+
+  div.gallary{
+    font-size: 20px;
+    text-align:center;
+    float: right;
+    width:600px;
+    margin:50px;
+    background-image: 
+  linear-gradient(to right bottom, 
+     rgb(194, 183, 162),
+     rgba(108, 95, 80, 0.8)),
+     url('https://images.pexels.com/photos/8740311/pexels-photo-8740311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+
+}
+
+  div.makeup{
+    width:200px;
+    padding: 8px;
+  }
+  div.gal {
+    margin: 17px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-image:   
+     url('https://images.pexels.com/photos/6800779/pexels-photo-6800779.jpeg?auto=compress&cs=tinysrgb&w=600');
+  }
+  div.section{
+    width:200px;
+    height:250px;
+    float: left;
+    margin-top:20px;
+    margin-right:22px;
+    margin-left:22px;
+    border:1px solid rgb(0, 0, 0);
+  }
+  div.section1{
+    width:200px;
+    height:100px;
+    float: center;
+  }
+  h2{
+    text-align:center;
+    float: center;
+  }
+/* for top nav */
+  .topnav {
+    overflow: hidden;
+    background-color: #f4d490;
+    height:50px;
+  }
+  
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: navy;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: rgb(205, 53, 53);
+  }
+
+  /* for sidenav */
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(140, 205, 240);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.2s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } 

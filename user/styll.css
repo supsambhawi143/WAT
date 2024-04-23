@@ -1,0 +1,42 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-image: 
+    linear-gradient(to right bottom, 
+       rgb(194, 183, 162),
+       rgba(137, 121, 102, 0.8)),
+       url('https://images.pexels.com/photos/1502645/pexels-photo-1502645.jpeg?auto=compress&cs=tinysrgb&w=600');
+  }
+  body{
+    background-color: rgb(229, 223, 195);
+}
+form{
+    width:700px;
+    height: 400px;
+    margin-left:50px;
+    background-image: 
+  linear-gradient(to right bottom, 
+     rgb(194, 183, 162),
+     rgba(108, 95, 80, 0.8)),
+     url('https://images.pexels.com/photos/8740311/pexels-photo-8740311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+.error{
+    color:#FF0000;
+}
+
+h1{
+   text-align: center;
+}
+#align-text{
+    text-align: center;
+} 
+div.gallary{
+    font-size: 20px;
+    text-align:center;
+    float: left;
+    width:500px;
+    margin:50px;
+    height: 400px;
+}

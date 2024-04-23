@@ -1,0 +1,91 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  font-weight: bold;
+}
+h3{
+  font-weight: bolder;
+}
+p1 {
+    font-weight:bolder;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+p2{
+    font-family:"Lucida Console", "Courier New", monospac;
+    color: green;
+    
+}
+p3{
+    font-size: large;
+    font-weight:900;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+ padding-left: 50px;
+}
+.box{
+  list-style: none;
+  flex-wrap:wrap;
+  display: flex;
+  justify-content: space-around;
+}
+.one{
+  border: 2px solid green;
+  background-color: #93969d;
+  width: 370px;
+  height: 30px;
+  margin: auto;
+  padding-top: 15px;
+  text-align: center;
+}
+.two{
+  border: 2px solid green;
+  background-color: #93969d;
+  width: 400px;
+  height: 30px;
+  margin: auto;
+  padding-top: 15px;
+  text-align: center;
+}
+.three{
+  border: 2px solid green;
+  background-color: #93969d;
+  width: 250px;
+  height: 30px;
+  margin: auto;
+  padding-top: 15px;
+  text-align: center;
+}
+.box1{
+  padding:0px;
+  list-style: none;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  display: flex;
+}
+.first{
+  border: 2px solid green;
+  width: 250px;
+  height: 40px;
+  margin: auto;
+  padding-left: 5px;
+  padding-top: 15px;
+  text-align: center;
+}
+.second{
+  border: 2px solid green;
+  width: 500px;
+  height: 40px;
+  margin: auto;
+  padding-left: 40px;
+  padding-top: 15px;
+}
+.third{
+  border: 2px solid green;
+  width: 300px;
+  height: 40px;
+  margin: auto;
+  padding-left: 35px;
+  padding-top: 15px;
+}
